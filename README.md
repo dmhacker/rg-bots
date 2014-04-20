@@ -1,7 +1,8 @@
 rg-bots
 =======
 
-A collection of Python robots
+***A collection of Python robots***
+
 You can find them being tested at: robotgame.net
 
 --------------------------------------------------------------------------------------------------------------------------
