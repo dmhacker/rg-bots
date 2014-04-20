@@ -7,7 +7,7 @@ You can find them being tested at: robotgame.net
 
 --------------------------------------------------------------------------------------------------------------------------
 
-BOT HISTORY (from oldest to youngest):
+___BOT HISTORY___ (from oldest to youngest):
 
   - ClusterBot: Original robot, targets finite point on grid and sends all units (to that point) for the rest of the game
   - Trident: Targets three points to attack on grid rather than one; fork of ClusterBot
