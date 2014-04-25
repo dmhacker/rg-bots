@@ -16,8 +16,9 @@ ___BOT HISTORY___ (from oldest to youngest):
   - Ponies: Units individually attack nearest enemy
   - Divident: Like Trident but can choose 3-6 random points to target and has better attack system
   - Kamek: Sends units after weakest in-game while being cautious about direct attacks
-  - Pontiff: IN DEV, can flee when necessary and attack enemies when advantageous
-  - Sucidal: Fork of Pontiff that was miscoded but somehow turned out really good
+  - Pontiff: Excessive fleeing, abandoned
+  - Sucidal: Fork of Pontiff that was miscoded but somehow turned out fairly good
+  - Plat10: Short for Platoon 10; groups robots into clusters with self-evaluating directives + safe fleeing/attacking
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
