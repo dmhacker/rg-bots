@@ -5,6 +5,7 @@ import rg
 '''
 Born out of a code defect with Pontiff
 The enemy nearby functions are screwed up but the robot functions better than Kamek (somehow?!)
+Next up in Pontiff: exploiting bot attack vectors
 '''
 class Robot:
     
