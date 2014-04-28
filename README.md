@@ -21,7 +21,7 @@ ___BOT HISTORY___ (from oldest to youngest):
   - Plat10: Short for Platoon 10; groups robots into clusters with self-evaluating directives + safe fleeing/attacking
     - NOTE: Platoon line is officially discontinued due to unavoidable bugs with its location-to-robot value mapping
   - Llama: Continuation of Plat10 (same attack vectors) but with a more unified approach
-  - Piexy: Planned, ultimate bot
+  - Piexy: Planned, ultimate bot combining various strategies
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
