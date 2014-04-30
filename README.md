@@ -20,8 +20,9 @@ ___BOT HISTORY___ (from oldest to youngest):
   - Sucidal: Fork of Pontiff that was miscoded but somehow turned out fairly good
   - Plat10: Short for Platoon 10; groups robots into clusters with self-evaluating directives + safe fleeing/attacking
     - NOTE: Platoon line is officially discontinued due to unavoidable bugs with its location-to-robot value mapping
-  - Llama: Continuation of Plat10 (same attack vectors) but with a more unified approach
-  - Piexy: Planned, ultimate bot combining various strategies
+  - Marquis: Spawn camping for the win!
+  - Lexicon: Continuation of Plat10 (same attack vectors) but with a more unified approach
+  - Superficial: Planned, ultimate bot combining various strategies
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
