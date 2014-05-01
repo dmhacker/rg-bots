@@ -12,9 +12,6 @@ With that said, I think it's ready for the battlefield.
 
 NOTE: The Platoon series is nice, but not good because it splits bots up into inefficient teams.
 I plan on using these attack vectors in a more unified approach (since flee now correctly assesses where to go and plans attacks accordingly)
-
-EDIT: By adding in a suicide function in the platoon directives, I was able to combat the suiciders better
-However, it has not be a decisive factor in beating them
 '''
 class Robot:
     turn_count = -1
@@ -121,7 +118,7 @@ class Platoon:
     def target(self, game):
         enemies = self.enemies(game)
         nearest = self.findNearest(enemies, self.averageLocation())
-        if nearest is None:
+        if nearest == None:
             self.targetbot = {}
             return
         self.targetbot = nearest
@@ -193,13 +190,18 @@ class Platoon:
         elif len(enemies) == 1:
             target = enemies[0] # Only enemy
             allies = self.nearbyAllies(target.location)
+            allies.remove(currentBot)
             ally_amount = len(allies)
             # print " Current ["+str(currentBot.robot_id)+"] surrounded by "+str(len(allies))+" allies"
             # print "    Allies:",allies\n
             if ally_amount == 0:
+                if currentBot.hp > 10:
+                    return ['attack', target.location]
                 return self.safeMove(currentLocation)
             elif ally_amount > 0:
                 if target.hp > (self.netHP(allies) + currentBot.hp):
+                    return self.safeMove(currentLocation)
+                elif currentBot.hp < 10:
                     return self.safeMove(currentLocation)
                 else:
                     return ['attack', target.location] # Never mind, we found a buddy, ATTACCKKK!
@@ -208,8 +210,11 @@ class Platoon:
             if len(possibleEnemies) == 1: # Found one, attack it
                 onlyenemy = possibleEnemies[0]
                 return ['attack', rg.toward(currentLocation, onlyenemy.location)]
-            elif len(possibleEnemies) > 1: # Multiple, flee
-                return self.safeMove(currentLocation)
+            elif len(possibleEnemies) > 1: 
+                if len(possibleEnemies) == 3: # Multiple, flee with escape route     
+                    return self.safeMove(currentLocation)
+                else: # Attack towards one of them
+                    return ['attack', rg.toward(currentLocation, possibleEnemies[0].location)]
         return None
     
     def danger(self, locs):
@@ -268,14 +273,14 @@ class Platoon:
     def isEmptySpace(self, moveTo):
         isEmpty = True
         for loc in self.all_bots.iterkeys():
-            if moveTo is loc:
+            if moveTo == loc:
                 isEmpty = False
         return isEmpty
     
     def nearbyEnemies(self, location, radius=1, borderonly=False):
         robots = []
         for loc, bot in self.all_bots.iteritems():
-            if bot.player_id is not self.playerid():
+            if bot.player_id != self.playerid():
                 if borderonly: 
                     if rg.wdist(loc, location) == radius:
                         robots.append(bot)
