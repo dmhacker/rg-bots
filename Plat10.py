@@ -245,7 +245,7 @@ class Platoon:
         safe = self.safest(currLoc)
         # print " Order locations:",safe
         if len(safe) == 0:
-            fightordie = rg.locs_around(currLoc, filter_out=('invalid', 'obstacle','spawn'))
+            fightordie = rg.locs_around(currLoc, filter_out=('invalid', 'obstacle'))
             return ['attack', fightordie[random.randint(len(fightordie - 1))]]
         safest = safe[0]
         # print " Found safest:",safest
