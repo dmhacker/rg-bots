@@ -9,20 +9,19 @@ These bots have been tested with a custom grid simulator on my computer that pit
 
 --------------------------------------------------------------------------------------------------------------------------
 
-___BOT HISTORY___ (from oldest to youngest):
+___MY BOTS___ (from best to worst):
 
-  - ClusterBot: Original robot, targets finite point on grid and sends all units (to that point) for the rest of the game
-  - Trident: Targets three points to attack on grid rather than one; fork of ClusterBot
-  - Ponies: Units individually attack nearest enemy
-  - Divident: Like Trident but can choose 3-6 random points to target and has better attack system
-  - Kamek: Sends units after weakest in-game while being cautious about direct attacks
-  - Pontiff: Excessive fleeing, abandoned
-  - Sucidal: Fork of Pontiff that was miscoded but somehow turned out fairly good
-  - Plat10: Short for Platoon 10; groups robots into clusters with self-evaluating directives + safe fleeing/attacking
-    - NOTE: Platoon line is officially discontinued due to unavoidable bugs with its location-to-robot value mapping
-  - Marquis: Spawn camping for the win!
-  - Lexicon: Continuation of Plat10 (same attack vectors) but with a more unified approach
-  - Superficial: Planned, ultimate bot combining various strategies
+| Bot       | Strength (0-10)       |
+| :------------- | :------------: |
+| Marquis     | 7 |
+| Plat10      | 6 |
+| Divident | 5 |
+| Ponies | 4 |
+| Suicidal | 3.5 |
+| Kamek | 3 |
+| Trident | 3 |
+| ClusterBot | 2 |
+| Pontiff | 1.5 |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
