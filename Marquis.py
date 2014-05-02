@@ -1,9 +1,10 @@
-
 import rg
 import random
 
 '''
 Created April 30, 2014
+
+They call me Monsieur the Marquis.
 
 Marquis is my first real attempt at good prediction. Its main strategy is to camp spawn locations.
 It also implements dynamic move and attack queues to tell friendlies and enemies to avoid certain areas
@@ -61,7 +62,7 @@ class Robot:
         amount_direct = len(direct)
         if amount_direct == 1:
             only_enemy = direct[0]
-            if self.isSpawn(only_enemy) and self.tillspawn == 0:
+            if self.isSpawn(only_enemy) and (self.tillspawn == 0 or self.tillspawn == 9):
                 return ['attack', only_enemy]
             helpers = self.nearbyAllies(only_enemy)
             helpers.remove(curr)
@@ -79,6 +80,11 @@ class Robot:
         possible = self.nearbyEnemies(curr, radius=2, borderonly=True)
         amount_possible = len(possible)
         if amount_possible == 1:
+            if self.isCamping(curr):
+                if self.isSpawn(possible[0]) or self.isNearAnySpawnpoint(possible[0], radius=1):
+                    guess = rg.toward(curr, possible[0])
+                    self.attack_queue.append(guess)
+                    return ['attack', guess]
             return self.flee(curr)
         elif amount_possible > 1:
             if self.isSpawn(curr) and self.tillspawn <= 2:
@@ -172,7 +178,7 @@ class Robot:
                 danger += rg.wdist(loc, ally) * 5
             if self.empty(loc):
                 if self.isSpawn(loc):
-                    if (self.tillspawn <= 1) == False:
+                    if self.tillspawn != 1:
                         danger_dict[loc] = danger
                 else:
                     count_me = True
