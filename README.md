@@ -23,6 +23,14 @@ ___MY BOTS___ (from best to worst):
 | ClusterBot | 2 |
 | Pontiff | 1.5 |
 
+___PLANNED___:
+
+| Bot       | Description       |
+| :------------- | :------------: |
+| Paragon     | Ultimate bot |
+| Lexicon      | Optimization of Marquis + Plat10 |
+| Dizzzy | Moves randomly and attacks in circles |
+
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
 I don't know why I like this game, but it's actually pretty addicting ...
