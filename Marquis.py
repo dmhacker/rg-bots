@@ -28,6 +28,8 @@ class Robot:
     tillspawn = 10 # Credit to liquid 1.0 for this
     board_locs = [] # Cached board locations
     
+    MIN_HEALTH = 15
+    
     def __init__(self):
         for spawn in rg.settings.spawn_coords:
             locs = rg.locs_around(spawn, filter_out=('invalid','obstacle','spawn'))
@@ -43,7 +45,7 @@ class Robot:
         curr = self.location
         
         if self.isTrapped(curr):
-            if self.tillspawn == 0 and self.isSpawn(curr):
+            if self.tillspawn == 1 and self.isSpawn(curr):
                 return ['suicide']
             else:
                 bump_me = self.untrap(curr)
@@ -64,6 +66,8 @@ class Robot:
             only_enemy = direct[0]
             if self.isSpawn(only_enemy) and (self.tillspawn == 0 or self.tillspawn == 9):
                 return ['attack', only_enemy]
+            if self.botAt(curr)['hp'] < self.MIN_HEALTH:
+                return self.flee(curr)
             helpers = self.nearbyAllies(only_enemy)
             helpers.remove(curr)
             total_hp = self.nethp(helpers) + self.botAt(curr)['hp']
