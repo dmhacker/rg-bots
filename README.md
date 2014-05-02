@@ -3,7 +3,7 @@ rg-bots
 
 ***A collection of Python robots***
 
-You can find them in use at: robotgame.net (profile = dmhacker)
+You can find them in use at: http://robotgame.net/user/8867
 
 These bots have been tested with a custom grid simulator on my computer that pits various bots against each other
 
