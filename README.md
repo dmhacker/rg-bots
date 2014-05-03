@@ -15,6 +15,7 @@ ___MY BOTS___ (from best to worst):
 | :------------- | :------------: |
 | Marquis     | 7 |
 | Plat10      | 6 |
+| Lexicon     | 6 |
 | Divident | 5 |
 | Ponies | 4 |
 | Suicidal | 3.5 |
@@ -28,8 +29,7 @@ ___PLANNED___:
 | Bot       | Description       |
 | :------------- | :------------: |
 | Paragon     | Ultimate bot |
-| Alduin      | Optimization of Marquis |
-| Lexicon      | Short and sweet |
+| Alduin      | Optimization of Lexicon |
 | Dizzzy | Moves randomly and attacks in circles |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
