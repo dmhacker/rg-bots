@@ -28,7 +28,7 @@ ___PLANNED___:
 | Bot       | Description       |
 | :------------- | :------------: |
 | Paragon     | Ultimate bot |
-| Lexicon      | Optimization of Marquis + Plat10 |
+| Lexicon      | Short and sweet |
 | Dizzzy | Moves randomly and attacks in circles |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
