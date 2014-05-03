@@ -17,13 +17,14 @@ class Robot:
     def act(self, game):
         MIN_HP = 15
         turn = game['turn']
+        game_bots = game['robots']
         hunts = {}
         if self.local_turn != turn:
             self.local_turn = turn
             del self.movements[:]
         health = self.hp
         curr = self.location
-        all_bots = [bot for bot in game['robots'].values()]
+        all_bots = [bot for bot in game_bots.values()]
         my_id = self.player_id
         til_spawn = (10 - (turn % 10)) % 10
         
@@ -59,7 +60,7 @@ class Robot:
             return sorted(rg.settings.spawn_coords, key=lambda loc : rg.dist(curr, loc))[0]
         
         def moveable(loc):
-            if 'obstacle' in rg.loc_types(loc) or loc in [bloc for bloc in game['robots'] if  game['robots'][bloc]['player_id'] != my_id]:
+            if 'obstacle' in rg.loc_types(loc) or loc in [bloc for bloc in game_bots if  game_bots[bloc]['player_id'] != my_id]:
                 return False
             if (til_spawn == 0) and loc in rg.settings.spawn_coords:
                 return False
@@ -91,7 +92,7 @@ class Robot:
             if include_suicide:
                 ar = rg.locs_around(curr, filter_out=('invalid','obstacle','spawn'))
             for around in ar:
-                if around not in game['robots']:
+                if around not in game_bots:
                     poss.append(around)
             if len(poss) == 0:
                 return None
@@ -100,6 +101,7 @@ class Robot:
         if til_spawn <= 2 and curr in rg.settings.spawn_coords:
             panic_move = panic(True)
             if panic_move != None:
+                self.movements.append(panic_move)
                 return ['move',panic_move]
             if til_spawn == 0:
                 return ['suicide']
@@ -121,7 +123,8 @@ class Robot:
             if safe_move == None:
                 panic_move = panic(False)
                 if panic_move != None:
-                    return ['move',panic_move]
+                    self.movements.append(panic_move)
+                    return ['move', panic_move]
                 return ['attack', sorted(nearby_enemies, key=lambda x : x['hp'])[0]['location']]
             self.movements.append(safe_move)
             return ['move', safe_move]
@@ -139,13 +142,19 @@ class Robot:
             return ['move', safe_move]
             
         if pe_len == 1:
-            if health > MIN_HP:
-                return ['move',rg.toward(curr, poss_enemies[0]['location'])]
-            return ['attack', rg.toward(curr, poss_enemies[0]['location'])]
+            only_enemy = poss_enemies[0]
+            only_enemy_loc = only_enemy['location']
+            if health > MIN_HP and health > only_enemy['hp']:
+                self.movements.append(rg.toward(curr, only_enemy_loc))
+                return ['move',rg.toward(curr, only_enemy_loc)]
+            return ['attack', rg.toward(curr, only_enemy_loc)]
         
         elif pe_len > 1:
             hp_bots = sorted(poss_enemies, key=lambda e : e['hp'], reverse=True)
             best = hp_bots[0]['location']
             return ['attack', rg.toward(curr, best)]
 
+        self.movements.append(rg.toward(curr, nearest_enemy_loc()))
         return ['move', rg.toward(curr, nearest_enemy_loc())]
+    
+    
