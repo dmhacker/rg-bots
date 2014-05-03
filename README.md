@@ -28,7 +28,8 @@ ___PLANNED___:
 | Bot       | Description       |
 | :------------- | :------------: |
 | Paragon     | Ultimate bot |
-| Lexicon      | Short and sweet |
+| Lexicon      | Optimization of Marquis |
+| Manette      | Short and sweet |
 | Dizzzy | Moves randomly and attacks in circles |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
