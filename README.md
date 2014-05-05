@@ -13,6 +13,7 @@ ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
 | :------------- | :------------: |
+| Alduin      | 8 |
 | Marquis     | 7 |
 | Lexicon     | 7 |
 | Plat10      | 6 |
@@ -30,7 +31,7 @@ ___PLANNED___:
 | Bot       | Description       |
 | :------------- | :------------: |
 | Paragon     | Ultimate bot |
-| Alduin      | Attempt at new prediction |
+| Obelisk      | Attempt at new prediction |
 | Terse       | Optimization of Lexicon |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
