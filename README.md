@@ -13,7 +13,7 @@ ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
 | :------------- | :------------: |
-| Alduin      | 8 |
+| Alduin      | 8.5 |
 | Marquis     | 7 |
 | Lexicon     | 7 |
 | Plat10      | 6 |
@@ -25,6 +25,8 @@ ___MY BOTS___ (from best to worst):
 | ClusterBot | 2 |
 | Pontiff | 1.5 |
 | Dizzzy  | 1 |
+
+Highest rank: ___32___ [Alduin - 2274.5 elo]
 
 ___PLANNED___:
 
