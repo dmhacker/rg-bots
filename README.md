@@ -21,6 +21,7 @@ ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
 | :------------- | :------------: |
+| Paarthurnax | 9   |
 | Alduin      | 8.5 |
 | Marquis     | 7 |
 | Lexicon     | 7 |
@@ -38,9 +39,9 @@ ___PLANNED___:
 
 | Bot       | Description       |
 | :------------- | :------------: |
-| Paragon     | Ultimate bot |
-| Obelisk      | Attempt at new prediction |
-| Terse       | Optimization of Lexicon |
+| Sheldon    | Ultimate bot |
+| Slacker      | Superb spawn camper |
+| Terse       | Shortest code yet |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
