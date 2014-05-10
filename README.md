@@ -26,7 +26,8 @@ ___MY BOTS___ (from best to worst):
 | Pontiff | 1.5 |
 | Dizzzy  | 1 |
 
-Highest rank: ___30 / 800+___ [Alduin - 2298.2 elo]
+Highest rank: ___30 / 800+___ 
+[Alduin - 2298.2 elo]
 
 ___PLANNED___:
 
