@@ -13,7 +13,7 @@ These bots have been tested with a custom grid simulator on my computer that pit
 
 Highest rank: ___30 / 800+___
 
-[Alduin - 2298.2 elo]
+[Alduin - 2304.8 elo]
 
 ==========================================================================================================================
 
