@@ -20,7 +20,7 @@ Highest rank: ___30 / 800+___
 ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
-| :------------- | :------------: |
+| :-------------: | :------------: |
 | Paarthurnax | 9 |
 | Alduin      | 8.5 |
 | Slacker     | 8 |
@@ -39,7 +39,7 @@ ___MY BOTS___ (from best to worst):
 ___PLANNED___:
 
 | Bot       | Description       |
-| :------------- | :------------: |
+| :-------------: | :------------: |
 | Q          | ?            |
 | Sheldon    | Ultimate bot |
 | Terse       | Shortest code yet |
