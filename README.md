@@ -21,8 +21,9 @@ ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
 | :------------- | :------------: |
-| Paarthurnax | 9   |
+| Paarthurnax | 9 |
 | Alduin      | 8.5 |
+| Slacker     | 8 |
 | Marquis     | 7 |
 | Lexicon     | 7 |
 | Plat10      | 6 |
@@ -39,8 +40,8 @@ ___PLANNED___:
 
 | Bot       | Description       |
 | :------------- | :------------: |
+| Q          | ?            |
 | Sheldon    | Ultimate bot |
-| Slacker      | Superb spawn camper |
 | Terse       | Shortest code yet |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
