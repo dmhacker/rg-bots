@@ -22,6 +22,7 @@ ___MY BOTS___ (from best to worst):
 | Bot       | Strength (0-10)       |
 | :-------------: | :------------: |
 | Paarthurnax | 9 |
+| Corruptor of Sine | 9 |
 | Alduin      | 8.5 |
 | Slacker     | 8 |
 | Marquis     | 7 |
@@ -35,14 +36,6 @@ ___MY BOTS___ (from best to worst):
 | ClusterBot | 2 |
 | Pontiff | 1.5 |
 | Dizzzy  | 1 |
-
-___PLANNED___:
-
-| Bot       | Description       |
-| :-------------: | :------------: |
-| Q          | ?            |
-| Sheldon    | Ultimate bot |
-| Terse       | Shortest code yet |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
