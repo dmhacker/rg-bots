@@ -22,7 +22,7 @@ ___MY BOTS___ (from best to worst):
 | Bot       | Strength (0-10)       |
 | :-------------: | :------------: |
 | Paarthurnax | 9 |
-| Corruptor of Sine | 9 |
+| Sheldon | 9 |
 | Alduin      | 8.5 |
 | Slacker     | 8 |
 | Marquis     | 7 |
