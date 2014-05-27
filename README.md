@@ -13,7 +13,7 @@ These bots have been tested with a custom grid simulator on my computer that pit
 
 Highest rank: ___14 / 800+___
 
-[Paarthurnax - 2698.9 elo]
+[Paarthurnax - 2702.2 elo]
 
 ==========================================================================================================================
 
