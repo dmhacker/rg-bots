@@ -22,19 +22,21 @@ ___MY BOTS___ (from best to worst):
 | Bot       | Strength (0-10)       |
 | :-------------: | :------------: |
 | Paarthurnax | 9 |
-| Sheldon | 9 |
-| Alduin      | 8.5 |
+| Damien | 9 |
+| Sheldon | 8.5 |
+| Alduin      | 8 |
 | Slacker     | 8 |
-| Marquis     | 7 |
-| Lexicon     | 7 |
-| Plat10      | 6 |
-| Divident | 5 |
-| Ponies | 4 |
-| Suicidal | 3.5 |
-| Kamek | 3 |
-| Trident | 3 |
-| ClusterBot | 2 |
-| Pontiff | 1.5 |
+| Terse       | 7 |
+| Marquis     | 6 |
+| Lexicon     | 6 |
+| Plat10      | 5 |
+| Divident | 4 |
+| Ponies | 3 |
+| Suicidal | 2.5 |
+| Kamek | 2 |
+| Trident | 2 |
+| ClusterBot | 1 |
+| Pontiff | 1 |
 | Dizzzy  | 1 |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
