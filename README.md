@@ -11,9 +11,9 @@ These bots have been tested with a custom grid simulator on my computer that pit
 
 ==========================================================================================================================
 
-Highest rank: ___14 / 800+___
+Highest rank: ___7 / 800+___
 
-[Paarthurnax - 2702.2 elo]
+[Damien - 3129.1 elo]
 
 ==========================================================================================================================
 
@@ -21,12 +21,13 @@ ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
 | :-------------: | :------------: |
+| Phantom | 10 |
 | Damien | 10 |
 | Paarthurnax | 9 |
 | Sheldon | 8.5 |
+| Terse       | 8 |
 | Alduin      | 8 |
-| Slacker     | 8 |
-| Terse       | 7 |
+| Slacker     | 7 |
 | Marquis     | 6 |
 | Lexicon     | 6 |
 | Plat10      | 5 |
