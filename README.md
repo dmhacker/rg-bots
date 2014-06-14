@@ -31,14 +31,6 @@ ___MY BOTS___ (from best to worst):
 | Marquis     | 6 |
 | Lexicon     | 6 |
 | Plat10      | 5 |
-| Divident | 4 |
-| Ponies | 3 |
-| Suicidal | 2.5 |
-| Kamek | 2 |
-| Trident | 2 |
-| ClusterBot | 1 |
-| Pontiff | 1 |
-| Dizzzy  | 1 |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
