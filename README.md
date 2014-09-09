@@ -25,9 +25,10 @@ ___MY BOTS___ (from best to worst):
 | Damien | 10 |
 | Paarthurnax | 9 |
 | Sheldon | 8.5 |
-| Terse       | 8 |
+| Tense | 8.5 |
 | Alduin      | 8 |
-| Slacker     | 7 |
+| Slacker       | 7.5 |
+| Terse     | 7 |
 | Marquis     | 6 |
 | Lexicon     | 6 |
 | Plat10      | 5 |
