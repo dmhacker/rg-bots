@@ -3,9 +3,9 @@ rg-bots
 
 ***A collection of Python robots***
 
-You can find them in use at: http://robotgame.net/user/8867
+You can find them in use on [my profile](http://robotgame.net/user/8867).
 
-These bots have been tested with a custom grid simulator on my computer that pits various bots against each other
+These bots have been tested with the default rgkit simulator on my computer that pits chosen bots against each other.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -21,17 +21,18 @@ ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
 | :-------------: | :------------: |
-| Phantom | 10 |
-| Damien | 10 |
-| Paarthurnax | 9 |
+| LongKnife | 10 |
+| Lucy | 10 |
+| Damien | 9 |
+| Paarthurnax | 8.5 |
 | Sheldon | 8.5 |
-| Tense | 8.5 |
-| Alduin      | 8 |
-| Slacker       | 7.5 |
-| Terse     | 7 |
-| Marquis     | 6 |
-| Lexicon     | 6 |
-| Plat10      | 5 |
+| Tense | 8 |
+| Terse     | 6.5 |
+| Alduin      | 6 |
+| Slacker       | 6 |
+| Marquis     | 5 |
+| Lexicon     | 5 |
+| Plat10      | 3.5 |
 
 NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
 
