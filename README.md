@@ -32,6 +32,4 @@ ___MY BOTS___ (from best to worst):
 | Lexicon     | 5 |
 | Plat10      | 3.5 |
 
-NOTE: These robots are purely my ideas, and it would be awesome if you didn't take any code (without permission, that is).
-
-I don't know why I like this game, but it's actually pretty addicting ...
+NOTE: These robots are purely my ideas, and it would be awesome if you don't take any code (without explicit permission).
