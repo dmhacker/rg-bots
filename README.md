@@ -13,7 +13,7 @@ These bots have been tested with the default rgkit simulator on my computer that
 
 Highest rank: ___7 / 800+___
 
-[Damien - 3129.1 elo]
+[Damien - 3340.0 elo]
 
 ==========================================================================================================================
 
@@ -21,13 +21,11 @@ ___MY BOTS___ (from best to worst):
 
 | Bot       | Strength (0-10)       |
 | :-------------: | :------------: |
-| LongKnife | 10 |
-| Lucy | 10 |
 | Damien | 9 |
-| Paarthurnax | 8.5 |
-| Sheldon | 8.5 |
-| Tense | 8 |
-| Terse     | 6.5 |
+| Tense | 8.5 |
+| Terse     | 8 |
+| Sheldon | 8 |
+| Paarthurnax | 7.5 |
 | Alduin      | 6 |
 | Slacker       | 6 |
 | Marquis     | 5 |
