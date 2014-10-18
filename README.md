@@ -5,7 +5,7 @@ rg-bots
 
 You can find them in use on [my profile](http://robotgame.net/user/8867).
 
-These bots have been tested with the default rgkit simulator on my computer that pits chosen bots against each other.
+These bots have been tested with the default rgkit simulator.
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -32,4 +32,4 @@ ___MY BOTS___ (from best to worst):
 | Lexicon     | 5 |
 | Plat10      | 3.5 |
 
-NOTE: These robots are purely my ideas, and it would be awesome if you don't take any code (without explicit permission).
+These robots are purely my ideas, and it would be awesome if you don't take any code (without explicit permission).
