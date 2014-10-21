@@ -29,7 +29,7 @@ ___MY BOTS___ (from best to worst):
 | Paarthurnax | 7.5 | Alduin with a queue |
 | Alduin      | 6 | First decent bot |
 | Slacker       | 6 | Spawn camper |
-| Marquis     | 5 | Failure |
+| Marquis     | 5 | Attempt at a queue |
 | Lexicon     | 5 | Attempt at brevity |
 | Plat10      | 3.5 | Attempt at kiting |
 
