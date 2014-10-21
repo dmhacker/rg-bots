@@ -19,7 +19,7 @@ Highest rank: ___7 / 800+___
 
 ___MY BOTS___ (from best to worst):
 
-| Bot       | Strength | Attributes |
+| Bot       | Strength | Feature(s) |
 | :-------------: | :------------: | :------------: |
 | Kaiser | 9 | Munkres |
 | Damien | 9 | Better prediction |
