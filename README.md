@@ -23,7 +23,7 @@ ___MY BOTS___ (from best to worst):
 | :-------------: | :------------: | :------------: |
 | Kaiser | 9 | Munkres |
 | Damien | 9 | Better prediction |
-| Short Knife | Simulated annealing |
+| Short Knife | 8.5 | Simulated annealing |
 | Tense | 8.5 | Improved Terse |
 | Terse     | 8 | Actual short bot |
 | Sheldon | 8 | Prevents chasing |
