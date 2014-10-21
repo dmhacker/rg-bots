@@ -19,17 +19,18 @@ Highest rank: ___7 / 800+___
 
 ___MY BOTS___ (from best to worst):
 
-| Bot       | Strength (0-10)       |
-| :-------------: | :------------: |
-| Damien | 9 |
-| Tense | 8.5 |
-| Terse     | 8 |
-| Sheldon | 8 |
-| Paarthurnax | 7.5 |
-| Alduin      | 6 |
-| Slacker       | 6 |
-| Marquis     | 5 |
-| Lexicon     | 5 |
-| Plat10      | 3.5 |
+| Bot       | Strength | Attributes |
+| :-------------: | :------------: | :------------: |
+| Kaiser | 9 | Munkres |
+| Damien | 9 | Better prediction |
+| Tense | 8.5 | Improved Terse |
+| Terse     | 8 | Actual short bot |
+| Sheldon | 8 | Prevents chasing |
+| Paarthurnax | 7.5 | Alduin with a queue |
+| Alduin      | 6 | First decent bot |
+| Slacker       | 6 | Spawn camper |
+| Marquis     | 5 | Failure |
+| Lexicon     | 5 | Attempt at brevity |
+| Plat10      | 3.5 | Attempt at kiting |
 
 These robots are purely my ideas, and it would be awesome if you don't take any code (without explicit permission).
