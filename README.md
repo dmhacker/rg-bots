@@ -31,5 +31,3 @@ ___BOTS___ (from best to worst):
 | Marquis     | 5 | Attempt at a queue |
 | Lexicon     | 5 | Attempt at brevity |
 | Plat10      | 3.5 | Attempt at kiting |
-
-These robots are purely my ideas, and it would be awesome if you don't take any code (without explicit permission).
