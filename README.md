@@ -7,11 +7,13 @@ You can find them in use on [my profile](http://robotgame.net/user/8867).
 
 These bots have been tested with the default rgkit simulator.
 
-==========================================================================================================================
+---
+
 Highest rank achieved: ___7 / 1000+___
 
 [Damien - 3340.0 elo]
-==========================================================================================================================
+
+---
 
 ___BOTS___ (from best to worst):
 
