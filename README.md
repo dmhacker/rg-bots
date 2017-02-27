@@ -1,26 +1,21 @@
 rg-bots
 =======
 
-***A collection of Python robots***
-
-You can find them in use on [my profile](http://robotgame.net/user/8867).
-
-These bots have been tested with the default rgkit simulator.
+This is a collection of Python robots for the artificial intelligence competition _robotgame_. You can find some at use on [my profile](http://robotgame.net/user/8867).
 
 ---
 
-Highest rank achieved: ___7 / 1000+___
-
-[Damien - 3340.0 elo]
+Highest rank achieved: __7__ / 1000+ 
+Best robot: __Damien__ - 3340.0 elo
 
 ---
 
-___BOTS___ (from best to worst):
+__Robot rankings__ (from best to worst):
 
 | Name     | Strength | Feature(s) |
 | :-------------: | :------------: | :------------: |
-| Kaiser | 9 | Munkres |
 | Damien | 9 | Better prediction |
+| Mink | 9 | Munkres |
 | Short Knife | 8.5 | Simulated annealing |
 | Tense | 8.5 | Improved Terse |
 | Terse     | 8 | Actual short bot |
