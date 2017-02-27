@@ -6,7 +6,8 @@ These are some of my open-source robots for the artificial intelligence competit
 ---
 
 Highest rank achieved: __7__ / 1000+ 
-Best robot: __Damien__ - 3340.0 elo
+
+Best robot: __Damien__ - 3340 elo
 
 ---
 
