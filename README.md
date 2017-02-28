@@ -1,7 +1,7 @@
 rg-bots
 =======
 
-These are some of my open-source robots for the artificial intelligence competition _robotgame_. They were written in Python. You can find some in use on [my profile](http://robotgame.net/user/8867).
+These are some of my open-source robots for the online artificial intelligence competition _Robot Game_. They were written in Python. You can find some in use on [my profile](http://robotgame.net/user/8867).
 
 ---
 
